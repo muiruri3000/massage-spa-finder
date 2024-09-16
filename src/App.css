@@ -12,7 +12,46 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.btn{
+  margin-top:5px;
+  padding: 12px 26px;
+}
+html,body{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 100vw;
+  height: 100vh;
+  background-color: aliceblue;
+  padding: 10px;
+}
 
+.Form{
+  padding: 20px;
+  border: 2px solid;
+  width: 300px;
+  margin-top:20px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0;
+  box-shadow: 12px 12px 15px gray, -15px -15px 10px lightgray;
+
+  background-color: #61dafb;
+}
+.Form label{
+  display: block;
+ 
+}
+.Form input{
+  width: 100%;
+  padding: 12px 5px;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top:10px;
+  border-radius: 10px;
+  border:1px solid darkgrey;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -22,6 +61,9 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+.Form button{
+  width: 100%;
 }
 
 .App-link {
